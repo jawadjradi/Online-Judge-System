@@ -22,3 +22,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore compiled Java files
+*.class
+
+# Ignore the MySQL database file
+*.sql
+
+# Ignore temporary files created by IDEs
+.idea/
+.vscode/
+*.iml
